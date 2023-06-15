@@ -25,11 +25,7 @@
       ansible.builtin.copy:
         src: roboshop.conf
         dest: /etc/nginx/default.d/roboshop.conf
-    - name: start nginx server
-      ansible.builtin.systemd:
-        state: restarted
-        name: nginx
-        enabled: true
+
 
 
 
