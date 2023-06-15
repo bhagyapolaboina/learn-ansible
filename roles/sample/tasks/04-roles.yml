@@ -1,5 +1,5 @@
 - name: demo on roles
-  hosts: all
-  connection: all
+  hosts: local
+  connection: local
   roles:
-    - sample
+    - sample/tasks
